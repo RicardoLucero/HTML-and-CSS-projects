@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My Dog Mordecai </title>
+		<meta charset="utf-8">
+	</head>
+	<nav>
+		<a href="Assignment.html">Home</a>
+		<a href="Dog.html">Dog Pictures</a>
+		<a href="Dog_Video.html">Dog Video</a>
+	</nav>
+	<body>
+		<main>
+		<h1>Color</h1>
+			<p>Mordecai is a brown dapple dachshund, meaning he is light brown with dark brown spots.</p>
+			<img>
+			<a href="Dog.html"> Doxies explained!</a>
+		</main>
+		<h3>Length and Height</h3>
+			<p>Mordecai is exactly 24in. long and stands at about 14in. tall.</p>
+		<h6>Courage</h6>
+			<p>Mordecai has the heart of a lion. He always jumps in to defend anyone in need of help
+			he does not care about his own safety but only about the one who he is trying to defend.</p>
+		<a href="https://www.sausagedogworld.com/wp-content/uploads/2019/06/dapple-dachshund-cover-new-888x496.jpg">Dapple Dachshunds Info</a>
+		<footer>Ricardo is responsible for caring for Mordecai. </footer>
+	</body>
+</html>
