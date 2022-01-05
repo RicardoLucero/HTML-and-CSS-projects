@@ -26,7 +26,7 @@
 			<font color="brown" face="Arial" size="7">
 				<b>My third paragraph is brown</b> and the largest in size.
 				like its my foundation.
-				<img src="\Basic_HTML_and_JavaScript_1\Pictures_1\Paul_Tre_Flip.jpg" alt="Paul rodriguez doing a Tre-flip 
+				<img src="Pictures_1\Paul_Tre_Flip.jpg"> alt="Paul rodriguez doing a Tre-flip 
 				over some stairs.">
 			</font>
 		</p>
