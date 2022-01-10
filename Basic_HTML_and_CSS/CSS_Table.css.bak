@@ -1,0 +1,21 @@
+table {
+	border: 1px lightgrey;
+}
+
+td:hover {
+	background-color: goldenrod;
+	color: black;
+}
+
+tr, th {
+	background-color: black;
+	color: blanchedalmond;
+}
+
+tr,td {
+	background-color: olive;
+	color: oldlace;
+}
+h1 {
+	font: vujahday script;
+}

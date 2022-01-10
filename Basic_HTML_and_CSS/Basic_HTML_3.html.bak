@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic HTML 3</title>
+		<style>
+		div {
+			color: blue;
+			text-align: center;
+			font: roboto;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Welcome to my 3rd assignment!</h1>
+		
+		<div>
+			<p>This font will be in Roboto!<br>
+			We are working on div tags and styling.</p>
+		</div>
+	</body>
+</html>

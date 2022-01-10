@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic HTML 5</title>
+		<link rel = "stylesheet" type = "text/css" href = "Basic_CSS_2.css">
+	</head>
+	<body>
+		<h1>Linking CSS file to HTML file!</h1>
+		<p>Here we have the styling done to the p element. we linked the style from the CSS
+		file.</p>
+	</body>
+</html>

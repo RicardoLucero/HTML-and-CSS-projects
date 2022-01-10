@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<body>
+		<h1>Japanese Car icons</h1>
+		<table style="width:100%">
+			<tr>
+				<th>Make</th>
+				<th>Model</th>
+				<th>Powertrain</th>
+				<th>Notes</th>
+			</tr>
+			<tr>
+				<td>Nissan</td>
+				<td>Skyline R-34</td>
+				<td>2.6 L Twin-turbocharged Inline-6 Engine</td>
+				<td>The skyline came to be known as the "Godzilla for it's dominence in circuit racing.</td>
+			</tr>
+			<tr>
+				<td>Mazda</td>
+				<td>RX-7</td>
+				<td>1308 cc Twin-turbocharged Twin-Rotor engine</td>
+				<td>This car is so beloved for breing a mass produced car with a Wankel-Rotor Engine.</td>
+			</tr>
+			<tr>
+				<td>Subaru</td>
+				<td>22B STi Impreza</td>
+				<td>2.2 L Turbocharged 4-cylinder Boxer engine</td>
+				<td>Subaru created their rarest Impreza with the 22B STi only making 400.
+				they made this one because they won their 3rd straigt WRC champion title.</td>
+			</tr>
+		</table>
+	</body>
+</html>
