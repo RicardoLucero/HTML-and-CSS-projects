@@ -3,13 +3,14 @@
 	<head>
 		<title>Dog Bowl Brewery</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/one_page_website.css">
 	</head>
 	
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"<li>Home</li></a>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home" id="link"><li>Home</li></a>
 					<a href="#gallery"><li>Gallery</li></a>
 					<a href="#contact"><li>Reservations</li></a>
 				</ul>
@@ -19,31 +20,32 @@
 		
 		<!-- HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<span>Dog Bowl Brewery</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Dog Bowl Brewery</span>
 				</div>
 			</div>
 		</div>
 		<!-- END HOME -->
 		
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
-				<div>
+		<section id="gallery">
+			<div class="container">
+				<h1>Gallery</h1>
+				<div class="flex-container">
 					<!-- VIDEO-CONTAINER 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<iframe src="https://www.youtube.com/embed/ceXUKLlEZ-Y" title="The brewing process"></iframe>
 						</div>
 					</div>
 					<!-- END VIDEO-CONTAINER 1 -->
 				
 					<!-- PHOTO-CONTAINER 1-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/Thumb/thumbnail_1.jpg" alt="Golden Summer Ale">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Our craft brews are always brewed in small batches. Made
 								with the utmost care and love for all things beer!</p>
@@ -53,10 +55,10 @@
 					<!-- END PHOTO-CONTAINER 1-->
 					
 					<!-- PHOTO-CONTAINER 2-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/Thumb/thumbnail_2.jpg" alt="Moo Cows bowl">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Our craft brews are always brewed in small batches. Made
 								with the utmost care and love for all things beer!</p>
@@ -66,10 +68,10 @@
 					<!-- END PHOTO-CONTAINER 2-->
 					
 					<!-- PHOTO-CONTAINER 3-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/Thumb/thumbnail_3.jpg" alt="Mortaloo">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Our craft brews are always brewed in small batches. Made
 								with the utmost care and love for all things beer!</p>
@@ -79,10 +81,10 @@
 					<!-- END PHOTO-CONTAINER 3-->
 					
 					<!-- PHOTO-CONTAINER 4-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/Thumb/thumbnail_4.jpg" alt="The Claudio">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Our craft brews are always brewed in small batches. Made
 								with the utmost care and love for all things beer!</p>
@@ -92,10 +94,10 @@
 					<!-- END PHOTO-CONTAINER 4-->
 					
 					<!-- PHOTO-CONTAINER 5-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/Thumb/thumbnail_5.jpg" alt="Pearlatta">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Our craft brews are always brewed in small batches. Made
 								with the utmost care and love for all things beer!</p>
@@ -105,10 +107,10 @@
 					<!-- END PHOTO-CONTAINER 5-->
 					
 					<!-- PHOTO-CONTAINER 6-->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/Thumb/thumbnail_6.jpg" alt="Chompies">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Our craft brews are always brewed in small batches. Made
 								with the utmost care and love for all things beer!</p>
@@ -118,18 +120,18 @@
 					<!-- END PHOTO-CONTAINER 6-->
 					
 		<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Reservations</h1>
-					<div>
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="reservation">
 						<h2><span>Our craft brews are always brewed in small batches.</span>
 							<br />Reserve your brewery tour today!
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							Please provide us with your basic contact information.
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
 								<input class="rsvp" type="text" value="First Name">
 								<input class="rsvp" type="text" value="Last Name">
@@ -138,7 +140,7 @@
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
@@ -150,7 +152,7 @@
 		<!-- END RSVP -->
 		
 		<!-- FOOTER -->
-		<div>
+		<div id="footer">
 			www.dogbowlbrewery.com &nbsp;|&nbsp; &copy; 2022
 		</div>
 		<!-- END FOOTER -->
