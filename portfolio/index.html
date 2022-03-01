@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Ricardo Lucero</title>
+        <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./images/pexels-pavel-danilyuk-5495781.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Ricardo Lucero's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>In some ways, programming is like painting. You start with a blank canvas
+                    <br>and certain basic raw materials. You use a combination of science, art, and 
+                    <br>craft to determine what to do with them.
+                    </q>
+                    <br> - Andrew Hunt
+                    <br>
+                    <br> My name is Ricardo Lucero. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for Visiting and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./images/pexels-christina-morillo-1181359.jpg" alt="Coding on a computer">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a software developer who loves to code! As a father of 6 doggos, I enjoy time with my family and skateboarding. 
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/RicardoLucero" target="_blank">Ricardo Lucero Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/RicardoLucero" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!-- Images used to open the Lightbox -->
+        <div class="row">
+            <div class="column">
+                <img src="./images/Academy_Cinemas.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="./images/Calculator.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="./images/Dachshund_Pizza.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="./images/Tic_Tac_Toe.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="./images/The_Space_Station.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="./images/Space_Station_Gallery.png" onclick="openModal();currentSlide(6)" class="hover-shadow">
+            </div>
+        </div>
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="./images/Academy_Cinemas.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="./images/Calculator.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="./images/Dachshund_Pizza.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="./images/Tic_Tac_Toe.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="./images/The_Space_Station.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="./images/Space_Station_Gallery.png" style="width:100%">
+                </div>
+
+                <!-- Next/Previous Controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Caption Text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail Image Controls -->
+                <div class="column">
+                    <img class="demo" src="./images/Academy_Cinemas.png" onclick="currentSlide(1)" alt="Academy Cinemas webpage">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/Calculator.png" onclick="currentSlide(2)" alt="Calculator App">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/Dachshund_Pizza.png" onclick="currentSlide(3)" alt="Pizza order menu">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/Tic_Tac_Toe.png" onclick="currentSlide(4)" alt="Tic Tac Toe Game">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/The_Space_Station.png" onclick="currentSlide(5)" alt="Space Station Webpage">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/Space_Station_Gallery.png" onclick="currentSlide(6)" alt="Space Station Webpage Gallery">
+                </div>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./images/pexels-maksim-goncharenok-5605061.jpg" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <form action="https://formspree.io/f/mjvlyynv" method="POST"> 
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">Ricardo Lucero &nbsp;|&nbsp; &copy; <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+        <script src="./JS/one_page_website.js"></script>
+    </body>
+</html>
