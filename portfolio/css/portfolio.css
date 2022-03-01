@@ -176,10 +176,6 @@ footer {
 /***** END OF VIDEO STYLING *****/
 
 /***** Lightbox styling *****/
-* {
-    box-sizing: border-box;
-}
-
 .row > .column {
     padding: 0 8px;
 }
